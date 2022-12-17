@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'Urbanist SemiBold';
+  src: url('../fonts/Urbanist-SemiBold.ttf');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Urbanist Bold';
+  src: url('../fonts/Urbanist-Bold.ttf');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Urbanist Bold Italic';
+  src: url('../fonts/Urbanist-BoldItalic.ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Urbanist Medium Italic';
+  src: url('../fonts/Urbanist-MediumItalic.ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Urbanist SemiBold Italic';
+  src: url('../fonts/Urbanist-SemiBoldItalic.ttf');
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+}
+
+body {
+  width: auto;
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header-link {
+  text-decoration: none;
+  font-size: 36px;
+  font-family: 'Urbanist Bold';
+  font-weight: 700;
+  color: #FFF;
+}
+
+.header-link:hover {
+  color: #6D6D6D;
+}
+
+.logo-text {
+  font-family: 'Urbanist Bold Italic';
+  font-size: 64px;
+  font-weight: 700;
+  font-style: italic;
+  color: #FFF;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 100px;
+  background: linear-gradient(269.78deg, rgba(255, 0, 0, 0.44) 49.48%, rgba(142, 48, 48, 0) 100%), #000000;;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 82px;
+  height: 82px;
+  margin-left: 10px;
+  margin-right: 8px;
+  border: none;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.main {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url('../images/main/bg.jpg') center center no-repeat  fixed;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-size: cover;
+}
+
+.info-container {
+  padding-top: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Urbanist SemiBold';
+  font-weight: 600;
+  color: #FFF;
+  line-height: 43px;
+  margin: 0px;
+}
+
+.main-info {
+  padding-top: 72px;
+  padding-left: 14px;
+  padding-bottom: 78px;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Urbanist SemiBold Italic';
+  font-weight: 600;
+  color: #BCBCBC;
+  font-style: italic;
+}
+
+.main-buttons-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: 'Urbanist Bold';
+  font-weight: 700;
+  color: #FFF;
+  text-align: center;
+}
+
+.primary-button {
+  border: 3px solid #FF0000;
+  border-radius: 25px;
+  width: 189px;
+  margin-right: 27px;
+}
+
+.primary-button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.secondary-button {
+  border: 3px solid #FF0000;
+  border-radius: 25px;
+  width: 267px;
+}
+
+.secondary-button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+.side-info-container {
+  padding-top: 191px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-info-container img {
+  width: 500px;
+  height: 480px;
+  border: 5px solid #FFF;
+  flex: 0 0 auto;
+}
+
+.side-info {
+  font-size: 36px;
+  font-family: 'Urbanist Medium Italic';
+  font-weight: 500;
+  font-style: italic;
+  color: #FFF;
+}
+
